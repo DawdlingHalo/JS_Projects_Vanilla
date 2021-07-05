@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background: #5b768b ;
+    color: #252529;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ============
+Navigation
+============ */
+nav{
+    padding: 2rem 7rem;
+    background-color: rgb(160, 158, 158);
+    height: 1rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 1px 5px black; /* provides good shadows to the nav bar */
+}
+
+.nav-center{
+    display: flex; 
+    width: 100%;
+    overflow: hidden; /* contains nav items in the bar */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;/* creates space between the two tags, namely , h3 and ul */
+}
+
+.nav-links{
+    display: flex; /* displays list items in one line */
+}
+
+nav a{
+    text-transform: capitalize;
+    margin-right: 5rem;
+    font-size: 20px;
+    color: #252529;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: #373753;
+}
+/* ===============
+CONTAINER
+================== */
+main{
+    min-height: calc(100vh - 1.5rem);
+    display: grid; /* can use block too */
+    place-items: center; 
+    /* only works in horizontal end */
+}
+
+.container {
+    text-align: center; /* positions button to center */
+}
+
+.color{
+    color: #5b768b;
+}
+
+.container h2{
+    background: rgba(41, 39, 39, 0.829) ;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+
+.btn-hero{
+    display: inline-block;
+    background: transparent;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);   
+}
+
+.btn-hero:hover {
+    color: white;
+    background:#505058;
+  }
