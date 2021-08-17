@@ -1,0 +1,145 @@
+body{
+    color: rgb(27, 27, 27);
+    background: #dcecf391;
+}
+
+.container{
+    width: 60%;
+    height: 75%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 0;
+}
+
+hr{
+    margin-top: 0px;
+    border: none;
+    text-align: center;
+    height: 4px;
+    width: 7%;
+    background-color: #95dee3ad;
+    margin-bottom: 20px;
+}
+
+.cards{
+    margin-top: 4px;
+    display: block;
+    width: 80%;
+    margin:auto;
+    height: 80%;
+    background: #ffffff6c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.236);
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.user{
+    text-align: center;
+    /* display: block; */
+}
+
+.dot{
+    height: 130px;
+    width: 130px;
+    background-color: #81cdeeee;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -5.4%;
+    margin-top: -0.5%;
+}
+#person-img{
+    object-fit: cover;
+    position: relative;
+    margin-left: 3%;
+    margin-top: 0px;  
+    margin-bottom: 5px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+
+}
+
+.top-left{
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: #81cdeeee;
+    color: white;
+    margin-left: 32%;
+    margin-top: -15%; 
+    position: fixed;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+.person{
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    padding: 5px;
+    text-align: center;
+    line-height: 10%;
+}
+
+#author{
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(31, 29, 29);
+}
+
+#job{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(9, 190, 190);
+}
+
+#review{
+    /* border: 1px solid black; */
+    font-size: 17px;
+    text-align: justify;
+}
+
+.button-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.prev-btn,
+.next-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  /* transition: all 0.3s linear; */
+  color: #5095b3;
+  cursor: pointer;
+}
+
+.prev-btn:hover,.next-btn:hover{
+    color: #366c83 ;
+    transition: all 0.3s linear; 
+}
+
+.rand-btn{
+    text-align: center;
+    left: 41.5%;
+    position:absolute;
+    padding: 7px 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: rgb(9, 190, 190);
+    color: ghostwhite;
+    font-weight: 700;
+}
+
+.rand-btn:hover{
+    background-color: #424242 ;
+}
