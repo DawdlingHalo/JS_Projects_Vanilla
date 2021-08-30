@@ -1,0 +1,119 @@
+body{
+    color: rgb(27, 27, 27);
+    background: #dcecf391;
+    margin: 0;
+    color:  hsl(210, 36%, 96%);
+    font-size: 0.875rem;
+}
+
+.sidebar-toggle{
+    margin: 10px;
+    width: 60px;
+    height: 50px;
+    float:right;
+    border: none;
+    background-color:  hsl(210, 36%, 96%);;
+    cursor: pointer;
+    color: blue;
+    font-size: 14px;
+}
+
+.sidebar-toggle:hover{
+    font-size: 15px;
+    transition: ease-in 0.2s;
+}
+
+/* SIDEBAR */
+
+
+    #show-sidebar{
+        transform: translate(0);}
+.sidebar{
+    width: 100%;
+    /* overflow: hidden; */
+    background: white;
+    height: 100%;
+    top: 0;left: 0;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(-100%);
+}
+.show-sidebar{
+    transform: translate(0);}
+
+.sidebar-header{
+    margin:5px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.close-btn{
+    color: red;
+    background: none;
+    border: none;
+    font-size: 39px;
+    float: right;
+    cursor: pointer;
+}
+.close-btn:hover{
+    font-size: 40px;
+    transition: ease-out 0.8s;
+    transform: rotateZ(360deg);
+}
+
+/* LINKS */
+.links{
+ /* border: 1px solid red; */
+ text-align: center; 
+ margin: 0px;
+ list-style-type: none;
+ padding: 0;
+ padding-bottom: 50px;
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: capitalize;
+ 
+}
+
+.links  a{
+    text-decoration: none;
+    color: rgb(26, 163, 187);
+    display: block;
+    padding: 0;
+    margin-top: 50px;
+    font-size: 31.5px;
+    text-shadow: 2px 2px 4px rgb(207, 207, 207);
+}
+.links a:hover{
+    font-size: 32px;
+    transition: ease-in 0.2s;
+}
+
+
+/* SOCIAL ICONS */
+.social-icons{
+    /* border: 1px solid black; */
+    display: flex;
+    list-style-type: none;
+    margin: 100px auto 20px;
+    width: 200px;
+    padding: 0px;
+    height: auto;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    transition: all 0.3s linear;
+    color: black;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 680px){
+
+    .sidebar{
+        width: 40%;
+        
+    }
+
+}
