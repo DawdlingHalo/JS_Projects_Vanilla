@@ -1,1 +1,0 @@
-1. background image applied in header using css , added layer over an image using single line code
